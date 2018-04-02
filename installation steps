@@ -1,0 +1,9 @@
+1>> install epel                           // repository of mosquitto
+
+2>> install mosquitto                     // to install mosquitto
+
+3>> systemctl start mosquitto.service    // to start mosquitto service
+
+4>> systemctl stop firewalld.service      // to stop firewall if any firewall is actinve and you want to connect different sysste(ip addredd)
+
+5>> npm install mqtt  (to install globally put " -g ")  
