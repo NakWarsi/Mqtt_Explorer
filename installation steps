@@ -7,3 +7,5 @@
 4>> systemctl stop firewalld.service      // to stop firewall if any firewall is actinve and you want to connect different sysste(ip addredd)
 
 5>> npm install mqtt  (to install globally put " -g ")  
+
+6>> to check install mqttbox
