@@ -20,9 +20,12 @@ namespace WpfApp4
     /// </summary>
     public partial class MainWindow : Window
     {
+        Chat ch = new Chat();
+
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = ch;
         }
     }
 }
