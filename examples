@@ -1,0 +1,3 @@
+1>> mosquitto_sub -h 192.168.xy.ab  -t nak   // # for all topic subscription
+
+2>> mosquitto_pub -h 192.168.xy.ab -t nak     // -l for multiple message
